@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(to right, #333333, #dd1818);
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    min-height:100vh;
+}
+
+#logo {
+    width: 250px;
+}
+
+#prompt {
+    width: 750px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: None;
+    text-align: center;
+}
+
+#generate_btn {
+    width: 775px; 
+    margin-bottom: 10px;
+    padding: 8px;
+    background: linear-gradient(to right, #c31432, #240b36);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: None;
+}
+
+.generated {
+    width: 250px;
+    margin: 2px;
+}
+
+.save_btn {
+    width: 250px;
+    background: linear-gradient(to right, #c31432, #240b36);
+    color: white;
+    padding: 8px;
+    margin: auto 2px;
+    border-radius: 10px;
+    border-style: None;
+    font-weight: bold;
+}
+
+.save_btn:hover {
+    cursor: pointer;
+    background: linear-gradient(to right,#f12711, #f5af19);
+}
+
+#generate_btn:hover {
+    cursor: pointer;
+    background: linear-gradient(to right,#f12711, #f5af19);
+}
